@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Anasayfa">
+    <meta name="keywords" content="BMW, RENAULT, MERCEDES, PEUGEOT,AUDİ">
+    <meta name="author" content="DESE">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png" type="logo.png/">
+    <title>MEGANE</title>
+    <style>
+        .carousel-item {
+           width: 70% 
+        }
+        th 
+        {
+            background-color: darkgray;
+            color: white;
+        }
+        table
+        {
+            position: absolute;
+            left: 800px;
+            top: 100px;
+            width: 50% ;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Courier New;
+            font-weight: bold;
+        }
+
+        .ortala {
+           
+            margin-left: 770px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+        <div class="container">
+            <a href="index.html" class="navbar-brand font-weight-bold " target="_self">DESE ARAÇ KİRALAMA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ac">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="ac">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active "><a href="index.html" class="nav-link"><i class="fas fa-home"></i>Ana sayfa </a></li>
+                    <li class="nav-item "><a href="hakkımızda.html" class="nav-link"><i class="fas fa-address-card"></i>Hakkımızda </a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                           aria-expanded="false">Kiralama Detayları</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="kiralama detayları.html" target="_blank">Kiralama Detayları</a>
+                        </div>
+                    </li>
+                    <li class="nav-item "><a href="fotogaleri.html" class="nav-link"><i class="far fa-image"></i> Araçlar </a></li>
+                    <li class="nav-item"><a href="iletişim.html" class="nav-link"><i class="far fa-address-book"> İletişim</i></a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 my-4">
+                <!--Carousel Wrapper-->
+                <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                        
+
+                    </ol>
+                    <!--/.Indicators-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="ARAÇLAR/1.jpg"
+                                 alt="First slide">
+                        </div>
+                        <!--/First slide-->
+                        <!--Second slide-->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="ARAÇLAR/2.jpg"
+                                 alt="Second slide">
+                        </div>
+                        <!--/Second slide-->
+                        
+
+                    </div>
+                    <!--/.Slides-->
+                    <br>
+                    <br>
+
+
+                    <table border=”1″>
+                        <tr>
+                            <th><strong>Marka</strong></th>
+                            <td>Renault Megane</td>
+
+                        </tr>
+                        <tr>
+                            <th><strong>Segment</strong></th>
+                            <td>C</td>
+
+                        </tr>
+                        <tr>
+                            <th><strong>Yakıt Tipi</strong></th>
+                            <td>Dizel</td>
+                        </tr>
+                        <tr>
+                            <th><strong>Motor Hacmi</strong></th>
+                            <td>1461 cc</td>
+                        </tr>
+                        <tr>
+                            <th><strong>Yakıt Tüketimi</strong></th>
+                            <td>ORT 4.2 (100 km)</td>
+                        </tr>
+                        <tr>
+                            <th><strong>Beygir Gücü</strong></th>
+                            <td>115</td>
+                        </tr>
+                    </table>
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <!--/.Controls-->
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+        </div>
+    </div>
+
+    <div id="section2" class="bg-light">
+        <h1>Kiralamak için ulaşın.</h1>
+        </div>
+   
+        <div id="section3" class="bg-light ">
+            <p class ="ortala">
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp fa-3x mr-md-5 mr-3 black-text"></i></a>
+
+                <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram fa-3x mr-md-5 mr-3 black-text"></i></a>
+
+                <a href="mailto:desearackiralama@dese.com.tr" target="_blank"><i class="far fa-envelope fa-3x mr-md-5 mr-3 black-text"></i></a>
+
+                <a href="tel:05055555555" target="_blank"><i class="fas fa-phone-alt fa-3x mr-md-5 mr-3 black-text black-text"></i></a>
+
+
+            </p>
+
+
+    </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 ">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+                        <!-- Gmail -->
+                        <a class="gplus-ic" href="mailto:desearackiralama@dese.com.tr">
+                            <i class="far fa-envelope white-text mr-md-5 mr-3 fa-2x">  </i>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © 2021 Copyright:
+            <a href="index.html" target="_blank">DOĞUKAN EKİNCİ - SUDE ECE</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/js/mdb.min.js"></script>
+    <!-- End MDB core JavaScript -->
+
+</body>
+</html>
